@@ -170,7 +170,6 @@ document.addEventListener("click", function (event) {
   }
 });
 
-
 // 削除ボタンのクリックイベントリスナーを追加
 document.addEventListener("click", function (event) {
   const deleteButton = event.target.closest(".delete-comment");
@@ -197,7 +196,6 @@ document.addEventListener("click", function (event) {
   }
 });
 
-
 // Reply button event listener
 const replyButtons = document.querySelectorAll(".reply-button");
 replyButtons.forEach((replyButton, index) => {
@@ -212,7 +210,6 @@ replyButtons.forEach((replyButton, index) => {
     replyForm.style.display = "block"; // クリックされた返信フォームを表示する
   });
 });
-
 
 // Step 1: Create the comment score element
 const createCommentScoreElement = () => {
