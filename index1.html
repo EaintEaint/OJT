@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comment Box1</title>
+  <link rel="stylesheet" href="Style.css" />
+  <script type="text/javascript" src="index1.js"  defer></script>
+</head>
+
+<body>
+  <div class="comment-session">
+
+    <div class="button-container">
+
+      <div class="filter-box">
+        <select id="filter-select">
+          <option value="none" selected disabled hidden>Seletes</option>
+          <option value="name">Name</option>
+          <option value="day">day</option>
+          <option value="day">week</option>
+          <option value="day">year</option>
+          <option value="score">score</option>
+        </select>
+  
+        <input type="text" id="filter-input" placeholder="">
+        <button id="filter-button">フィルター</button>
+      </div>
+      <button id="previous-button">Previous</button>
+      <button id="next-button">Next</button>
+    </div>
+    
+    
+    <div class="post-comment">
+      <div class="comment-score">
+        <button class="increment-button">+</button>
+        <div class="score"></div>
+        <button class="decrement-button">-</button>
+      </div>
+      <div class="list-content">
+        <div class="user">
+          <div class="user-image">
+           <!-- <img src="./Image/image.jpg" alt="image" width="50px" height="50px" />  -->
+          </div>
+        </div>
+        <div class="name"></div>
+        <div class="day"></div>
+        <div class="comment-actions">
+          <div class="comment-reply">
+            <button class="reply-button">reply</button>
+          </div>
+        </div>
+        <!-- 返信フォーム -->
+        <div class="reply-form">
+          <textarea class="reply-text"></textarea>
+          <button class="reply-submitA">complete</button>
+        </div>
+        <div class="comment-post">
+          
+        </div>
+      </div>
+    </div>
+    <div class="reply-commentsA">
+      <!-- 返信コメントの表示領域 -->
+    </div>
+
+    <div class="post-comment">
+      <div class="comment-score">
+        <button class="increment-button">+</button>
+        <div class="score"></div>
+        <button class="decrement-button">-</button>
+      </div>
+      <div class="list-content">
+        <div class="user">
+          <div class="user-image">
+            <!-- <img src="./Image/image_a.jpg" alt="image" width="50px" height="50px" /> -->
+          </div>
+        </div>
+        <div class="name"></div>
+        <div class="day"></div>
+        <div class="comment-actions">
+          <div class="comment-reply">
+            <button class="reply-button">reply</button>
+          </div>
+
+        </div>
+        <!-- 返信フォーム -->
+        <div class="reply-form">
+          <textarea class="reply-text"></textarea>
+          <button class="reply-submitB">complete</button>
+        </div>
+
+        <div class="comment-post">
+      
+        </div>
+      </div>
+    </div>
+    <div class="reply-commentsB">
+
+      <!-- 返信コメントの表示領域 -->
+
+    </div>
+    <div class="comment-box">
+      <div class="user">
+        <div class="user-image">
+          <img src="./Image/image.jpg" alt="image" width="50px" height="50px" />
+        </div>
+      </div>
+      <textarea name="comment" placeholder="Add a comment..."></textarea>
+      <button class="comment-submit">Send</button>
+    </div>
+  </div>
+
+  <dialog id="confirmation-dialog">
+    <p>このコメントを削除しますか？</p>
+    <button id="cancel-delete">No,Cancel</button>
+    <button id="confirm-delete">Yes,Delete</button>
+  </dialog>
+
+  <!-- <script type="text/javascript" src="index.js"  defer></script> -->
+
+</body>
+
+</html>

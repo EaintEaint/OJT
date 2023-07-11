@@ -1,0 +1,69 @@
+{
+    "currentUser": {
+      "image": { 
+        "png": "./images/avatars/image-juliusomo.png",
+        "webp": "./images/avatars/image-juliusomo.webp"
+      },
+      "username": "juliusomo"
+    },
+    "comments": [
+      {
+        "id": 1,
+        "content": "This is great but I am working on google sites and you have to type just a html code and you can't upload files or anything like that so if you could please help me with that would be very nice have a great day!",
+        "createdAt": "1 year 1 month ago",
+        "score": 10,
+        "user": {
+          "image": { 
+            "png": "./Image/image_b.jpg",
+            "webp": "./images/avatars/image-amyrobson.webp"
+          },
+          "username": "Ravindu"
+        },
+        "replies": []
+      },
+      {
+        "id": 2,
+        "content": "Good but will this run properly or it's just a showpiece....I Mean that do we need any further code for running it properly on website and how we will receive comments!",
+        "createdAt": "2 weeks ago",
+        "score": 7,
+        "user": {
+          "image": { 
+            "png": "./Image/image_c.jpg",
+            "webp": "./images/avatars/image-maxblagun.webp"
+          },
+          "username": "ButterQueen"
+        },
+        "replies": [
+          {
+            "id": 3,
+            "content": "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.",
+            "createdAt": "1 week ago",
+            "score": 4,
+            "replyingTo": "maxblagun",
+            "user": {
+              "image": { 
+                "png": "./images/avatars/image-ramsesmiron.png",
+                "webp": "./images/avatars/image-ramsesmiron.webp"
+              },
+              "username": "ramsesmiron"
+            }
+          },
+          {
+            "id": 4,
+            "content": "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
+            "createdAt": "2 days ago",
+            "score": 2,
+            "replyingTo": "ramsesmiron",
+            "user": {
+              "image": { 
+                "png": "./images/avatars/image-juliusomo.png",
+                "webp": "./images/avatars/image-juliusomo.webp"
+              },
+              "username": "juliusomo"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
