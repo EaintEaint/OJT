@@ -17,7 +17,6 @@ body {
   height: auto;
   align-items: flex-end;
   justify-content: left;
-
 }
 
 .post-comment {
@@ -217,7 +216,6 @@ body {
 }
 
 /* style of the confirmation-dialog*/
-
 #confirmation-dialog {
   width: 300px;
   padding: 20px;
