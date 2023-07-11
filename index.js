@@ -443,7 +443,7 @@ fetch('data.json')
     console.error('Error fetching data:', error);
   });
 
- // フィルターボタンのクリックイベントリスナーを追加
+// フィルターボタンのクリックイベントリスナーを追加
 const filterButton = document.getElementById("filter-button");
 filterButton.addEventListener("click", function () {
   // フィルターの入力値を取得
@@ -490,10 +490,10 @@ filterButton.addEventListener("click", function () {
 const previousButton = document.getElementById("previous-button");
 const nextButton = document.getElementById("next-button");
 
-previousButton.addEventListener("click", function() {
+previousButton.addEventListener("click", function () {
   window.location.href = "question.html";
 });
 
-nextButton.addEventListener("click", function() {
+nextButton.addEventListener("click", function () {
   window.location.href = "index1.html";
 });
